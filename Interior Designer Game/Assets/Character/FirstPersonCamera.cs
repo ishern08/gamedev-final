@@ -8,6 +8,7 @@ public class FirstPersonCamera : MonoBehaviour
     private float yAxis;
     float xAxisTurnRate = 360f;
     float yAxisTurnRate = 360f;
+    public float clampAmount = 90f;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +33,7 @@ public class FirstPersonCamera : MonoBehaviour
     public void AddXAxisInput(float input)
     {
         xAxis -= input * xAxisTurnRate;
-        xAxis = Mathf.Clamp(xAxis, -90f, 90f);
+        xAxis = Mathf.Clamp(xAxis, -clampAmount, clampAmount);
     }
 
     public void AddYAxisInput(float input)
