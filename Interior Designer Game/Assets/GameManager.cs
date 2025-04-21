@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject Player;
 
 
     private void OnTriggerEnter(Collider other)
@@ -17,6 +18,29 @@ public class GameManager : MonoBehaviour
         if(other.tag == "DoorOutofHouse")
         {
             SceneManager.LoadScene(0);
+            
+        }
+
+        if(other.tag == "Apartment")
+        {
+            SceneManager.LoadScene(2);
+        }
+
+        if(other.tag == "DoorOutofApartment")
+        {
+            SceneManager.LoadScene(0);
+          
+        }
+
+        if(other.tag == "Apartment2")
+        {
+            SceneManager.LoadScene(3);
+        }
+
+        if(other.tag == "DoorOutofApartment2")
+        {
+            SceneManager.LoadScene(0);
+         
         }
     }
 }

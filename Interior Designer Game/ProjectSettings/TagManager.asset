@@ -6,6 +6,10 @@ TagManager:
   tags:
   - House
   - DoorOutofHouse
+  - Apartment
+  - Apartment2
+  - DoorOutofApartment
+  - DoorOutofApartment2
   layers:
   - Default
   - TransparentFX
