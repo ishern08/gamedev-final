@@ -6,60 +6,34 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject Player;
-    public static GameManager instance;
+    public static GameManager instance {get; private set;}
+    
+    [SerializeField]
+    
+    private GameState startingState;
+
+    public GameState GameState {get; private set;}
+    
+    public LevelManager levelManager;
+
 
     private void Awake()
     {
-        if(instance)
+        if(instance != null && instance != this)
         {
-            Destroy(this);
+            Destroy(gameObject);
+            return;
         }
         else
         {
             instance = this;
             DontDestroyOnLoad(this);
         }
+    
+
+        GameState = Instantiate(startingState);
+        //levelManager.GameState = GameState;
     }
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "House")
-        {
-            SceneManager.LoadScene(1);
-           
-           
-        }
-
-        if(other.tag == "DoorOutofHouse")
-        {
-            SceneManager.LoadScene(0);
-          
-            
-        }
-
-        if(other.tag == "Apartment")
-        {
-            SceneManager.LoadScene(2);
-        }
-
-        if(other.tag == "DoorOutofApartment")
-        {
-            SceneManager.LoadScene(0);
-     
-          
-        }
-
-        if(other.tag == "Apartment2")
-        {
-            SceneManager.LoadScene(3);
-        }
-
-        if(other.tag == "DoorOutofApartment2")
-        {
-            SceneManager.LoadScene(0);
-         
-        }
-    }
+    
 }

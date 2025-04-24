@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - House
   - DoorOutofHouse
-  - Apartment
   - Apartment2
-  - DoorOutofApartment
-  - DoorOutofApartment2
+  - respawn
   layers:
   - Default
   - TransparentFX

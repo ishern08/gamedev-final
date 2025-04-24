@@ -11218,6 +11218,7 @@ GameObject:
   - component: {fileID: 647097910}
   - component: {fileID: 647097911}
   - component: {fileID: 647097912}
+  - component: {fileID: 647097913}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11247,7 +11248,7 @@ Transform:
   m_GameObject: {fileID: 647097903}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000008146034, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -77.5, y: 1.75, z: 26.75}
+  m_LocalPosition: {x: -88, y: 1.75, z: 26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11362,7 +11363,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a81474291ccd8458f816878751648b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 647097903}
+  startingState: {fileID: 0}
+  levelManager: {fileID: 0}
+--- !u!114 &647097913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647097903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9632d30e208960a43834dd54239fd8e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &655405561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25387,7 +25401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d06dc4a0f6dcf4086aee95eabc15e2c4, type: 3}
       propertyPath: m_TagString
-      value: House
+      value: respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27909,7 +27923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b2844ffdf75974ca4992a07a20376a0e, type: 3}
       propertyPath: m_TagString
-      value: Apartment
+      value: respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28989,7 +29003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 85c53e7a743ce46c3af18c70ea6fbdf6, type: 3}
       propertyPath: m_TagString
-      value: Apartment2
+      value: respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
