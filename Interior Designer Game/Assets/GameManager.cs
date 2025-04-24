@@ -1,11 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public GameObject Player;
+    public static GameManager instance;
+
+    private void Awake()
+    {
+        if(instance)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(this);
+        }
+    }
 
 
     private void OnTriggerEnter(Collider other)
@@ -13,11 +28,14 @@ public class GameManager : MonoBehaviour
         if(other.tag == "House")
         {
             SceneManager.LoadScene(1);
+           
+           
         }
 
         if(other.tag == "DoorOutofHouse")
         {
             SceneManager.LoadScene(0);
+          
             
         }
 
@@ -29,6 +47,7 @@ public class GameManager : MonoBehaviour
         if(other.tag == "DoorOutofApartment")
         {
             SceneManager.LoadScene(0);
+     
           
         }
 

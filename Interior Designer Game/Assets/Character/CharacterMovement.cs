@@ -8,7 +8,8 @@ public class CharacterMovement : MonoBehaviour
 
     CharacterController characterController;
     public float moveSpeed = 5f;
-    Vector3 moveDirection;
+    Vector3 moveDirection ;
+    public float turnSpeed = 10f;
     // Start is called before the first frame update
     void Start()
     {
