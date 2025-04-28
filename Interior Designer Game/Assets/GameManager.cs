@@ -7,16 +7,6 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance {get; private set;}
-    
-    [SerializeField]
-    
-    private GameState startingState;
-
-    public GameState GameState {get; private set;}
-    
-    public LevelManager levelManager;
-
-
     private void Awake()
     {
         if(instance != null && instance != this)
@@ -31,8 +21,6 @@ public class GameManager : MonoBehaviour
         }
     
 
-        GameState = Instantiate(startingState);
-        //levelManager.GameState = GameState;
     }
 
     

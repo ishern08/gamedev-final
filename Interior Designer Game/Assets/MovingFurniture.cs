@@ -4,10 +4,21 @@ using UnityEngine;
 
 public class MovingFurniture : MonoBehaviour
 {
+    public new GameObject gameObject;
+    public float movingAngle = -90.0f;
 
 
-    void Update()
+    public void MovingFurnX()
     {
-       
+        gameObject.transform.Rotate(movingAngle, 0.0f, 0.0f, Space.Self);
+    }
+
+    public void MovingFurnY()
+    {
+        gameObject.transform.Rotate(0.0f, movingAngle, 0.0f, Space.Self);
+    }
+    public void MovingFurnZ()
+    {
+        gameObject.transform.Rotate(0.0f, 0.0f, movingAngle, Space.Self);
     }
 }
