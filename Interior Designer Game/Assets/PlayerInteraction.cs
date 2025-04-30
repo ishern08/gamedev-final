@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class PlayerInteraction : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private float maxDistance = 2f;
+    [SerializeField] private float maxDistance = 5f;
     [SerializeField] private Text interactableName;
     private InteractionObject targetInteraction;
     
@@ -52,4 +52,6 @@ public class PlayerInteraction : MonoBehaviour
             targetInteraction.Interact();
         }
     }
+
+   
 }

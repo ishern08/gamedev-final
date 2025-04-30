@@ -7,6 +7,7 @@ public class InputHandler : MonoBehaviour
     FirstPersonCamera firstPersonCamera;
     CharacterMovement characterMovement;
     PlayerInteraction playerInteraction;
+
  
     // Start is called before the first frame update
     void Start()
@@ -46,5 +47,7 @@ public class InputHandler : MonoBehaviour
             playerInteraction.TryInteract();
         }
     }
+
+    
 
 }
