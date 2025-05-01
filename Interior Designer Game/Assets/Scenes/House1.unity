@@ -350,8 +350,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6075769524634383316, guid: 2343b3a108edf9a49b06659f0928a030, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 101246638}
   m_SourcePrefab: {fileID: 100100000, guid: 2343b3a108edf9a49b06659f0928a030, type: 3}
+--- !u!1 &101246637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6075769524634383316, guid: 2343b3a108edf9a49b06659f0928a030, type: 3}
+  m_PrefabInstance: {fileID: 101246636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &101246638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101246637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Washing Machine
+  gameObject: {fileID: 101246637}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &110692989 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8225997399151032839, guid: a47bc71942f460a47ab5fdebb4abd678, type: 3}
@@ -1024,8 +1049,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 917278889609147279, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 614211682}
   m_SourcePrefab: {fileID: 100100000, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+--- !u!1 &614211681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 917278889609147279, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+  m_PrefabInstance: {fileID: 614211680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &614211682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614211681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Counter
+  gameObject: {fileID: 614211681}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &639458308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,6 +1173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Chair
+  gameObject: {fileID: 689847729}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -1152,6 +1203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject: {fileID: 689847729}
   movingAngle: 90
+  movingAmount: 5
 --- !u!4 &691083267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6218193170447474458, guid: 2ba5ac2de7ff0764e8874d18fcb4484c, type: 3}
@@ -1378,6 +1430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Couch
+  gameObject: {fileID: 762406239}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -1407,6 +1460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject: {fileID: 762406239}
   movingAngle: 90
+  movingAmount: 5
 --- !u!1001 &800895559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1477,8 +1531,33 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6218193170447474458, guid: 2ba5ac2de7ff0764e8874d18fcb4484c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2064070261}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6701537745073358240, guid: 2ba5ac2de7ff0764e8874d18fcb4484c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800895561}
   m_SourcePrefab: {fileID: 100100000, guid: 2ba5ac2de7ff0764e8874d18fcb4484c, type: 3}
+--- !u!1 &800895560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6701537745073358240, guid: 2ba5ac2de7ff0764e8874d18fcb4484c, type: 3}
+  m_PrefabInstance: {fileID: 800895559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &800895561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800895560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Dresser
+  gameObject: {fileID: 800895560}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &892201670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +1791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Wardrobe
+  gameObject: {fileID: 1060462811}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -1741,6 +1821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject: {fileID: 1060462811}
   movingAngle: -90
+  movingAmount: 5
 --- !u!1 &1079863347 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6879242674631676303, guid: 9f9cd54077faf65438d05b189cdde7f5, type: 3}
@@ -1885,8 +1966,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1482878040570689760, guid: 1279e726d2b09334ca77abe228aa5a47, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163880794}
   m_SourcePrefab: {fileID: 100100000, guid: 1279e726d2b09334ca77abe228aa5a47, type: 3}
+--- !u!1 &1163880793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1482878040570689760, guid: 1279e726d2b09334ca77abe228aa5a47, type: 3}
+  m_PrefabInstance: {fileID: 1163880792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1163880794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163880793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Dumbbell
+  gameObject: {fileID: 1163880793}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1194308700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1954,8 +2060,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1482878040570689760, guid: 1279e726d2b09334ca77abe228aa5a47, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1194308702}
   m_SourcePrefab: {fileID: 100100000, guid: 1279e726d2b09334ca77abe228aa5a47, type: 3}
+--- !u!1 &1194308701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1482878040570689760, guid: 1279e726d2b09334ca77abe228aa5a47, type: 3}
+  m_PrefabInstance: {fileID: 1194308700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1194308702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194308701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Dumbbell
+  gameObject: {fileID: 1194308701}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1240276995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6069773055420353333, guid: 9f9cd54077faf65438d05b189cdde7f5, type: 3}
@@ -1974,6 +2105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Table
+  gameObject: {fileID: 1079863347}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -2003,6 +2135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject: {fileID: 1079863347}
   movingAngle: 90
+  movingAmount: 5
 --- !u!1001 &1276496996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2139,8 +2272,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 917278889609147279, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1319973927}
   m_SourcePrefab: {fileID: 100100000, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+--- !u!1 &1319973926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 917278889609147279, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+  m_PrefabInstance: {fileID: 1319973925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1319973927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319973926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Counter
+  gameObject: {fileID: 1319973926}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1424966413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2216539992114824954, guid: c97a7e3361d4a884ea66a7f03258cdc8, type: 3}
@@ -2158,7 +2316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: I'm an interactable object!
+  interactionText: TV
+  gameObject: {fileID: 1424966413}
   OnInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -2201,6 +2360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: I'm an interactable object!
+  gameObject: {fileID: 0}
   OnInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -2371,7 +2531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionText: laundry machine
+  interactionText: Washing Machine
+  gameObject: {fileID: 1584433661}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -2401,6 +2562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject: {fileID: 1584433661}
   movingAngle: -90
+  movingAmount: 5
 --- !u!1 &1592840509
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Fridge
+  gameObject: {fileID: 1669531420}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -2554,6 +2717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject: {fileID: 1669531420}
   movingAngle: -90
+  movingAmount: 5
 --- !u!1001 &1683343453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2784,8 +2948,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3800496436466665405, guid: 82f624b1964c7ba4fb21eae95f185a9c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1858079900}
   m_SourcePrefab: {fileID: 100100000, guid: 82f624b1964c7ba4fb21eae95f185a9c, type: 3}
+--- !u!1 &1858079899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3800496436466665405, guid: 82f624b1964c7ba4fb21eae95f185a9c, type: 3}
+  m_PrefabInstance: {fileID: 1858079898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1858079900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858079899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Bed
+  gameObject: {fileID: 1858079899}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1874969640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2987,6 +3176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Lamp
+  gameObject: {fileID: 0}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -3016,6 +3206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject: {fileID: 110692989}
   movingAngle: -90
+  movingAmount: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

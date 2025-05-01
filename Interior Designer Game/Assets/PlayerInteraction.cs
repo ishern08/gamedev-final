@@ -11,6 +11,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float maxDistance = 5f;
     [SerializeField] private Text interactableName;
     private InteractionObject targetInteraction;
+
     
 
     // Update is called once per frame
@@ -50,6 +51,7 @@ public class PlayerInteraction : MonoBehaviour
         if(targetInteraction)
         {
             targetInteraction.Interact();
+            gameObject.tag = "alreadyInteracted";
         }
     }
 

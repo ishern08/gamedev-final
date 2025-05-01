@@ -7,6 +7,9 @@ TagManager:
   - DoorOutofHouse
   - Apartment2
   - respawn
+  - DoorOutofApartment2
+  - DoorOutofApartment
+  - alreadyInteracted
   layers:
   - Default
   - TransparentFX

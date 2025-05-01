@@ -7,6 +7,8 @@ public class InteractionObject : MonoBehaviour
 {
     [SerializeField] private string interactionText = "I'm an interactable object!";
 
+    public GameObject gameObject;
+
     public UnityEvent OnInteract = new UnityEvent();
 
     private void OnEnable()
@@ -19,7 +21,11 @@ public class InteractionObject : MonoBehaviour
     }
 
     public void Interact()
-    {
-        OnInteract.Invoke();
+    {   if(!gameObject.CompareTag("alreadyInteracted"))
+        {
+            OnInteract.Invoke();
+            gameObject.tag = "alreadyInteracted";
+        }
+        
     }
 }

@@ -259,6 +259,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0977178, y: 2.2689464, z: 0.38570282}
   m_Center: {x: -0.54885423, y: 1.1344732, z: 0.049894117}
+--- !u!1 &429529844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 917278889609147279, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+  m_PrefabInstance: {fileID: 943442561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &429529845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429529844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Counter
+  gameObject: {fileID: 429529844}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &503223621
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,10 +340,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -356,6 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Keyboard
+  gameObject: {fileID: 510937970}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -453,7 +476,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7321423145260268018, guid: d5076481aac507e4a8a37c3b0eea7727, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1348049189}
   m_SourcePrefab: {fileID: 100100000, guid: d5076481aac507e4a8a37c3b0eea7727, type: 3}
 --- !u!1 &587401046
 GameObject:
@@ -603,6 +629,28 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 510937975}
   m_SourcePrefab: {fileID: 100100000, guid: ff8bf27806498b14db60a3c20a21eec2, type: 3}
+--- !u!1 &840822130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5475051098011276006, guid: a457d02d5bf10c9459386d5931ca3a94, type: 3}
+  m_PrefabInstance: {fileID: 2029990652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &840822131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840822130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Fridge
+  gameObject: {fileID: 840822130}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &855085757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -850,7 +898,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 917278889609147279, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 429529845}
   m_SourcePrefab: {fileID: 100100000, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
 --- !u!1001 &970090408
 PrefabInstance:
@@ -1065,7 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32cb8f80a6f0fe4e9277ca4689c6898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDistance: 2
+  maxDistance: 5
   interactableName: {fileID: 503223623}
 --- !u!114 &1114830767
 MonoBehaviour:
@@ -1260,6 +1311,28 @@ Transform:
   - {fileID: 1087125330}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1348049188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7321423145260268018, guid: d5076481aac507e4a8a37c3b0eea7727, type: 3}
+  m_PrefabInstance: {fileID: 578256059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1348049189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348049188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Air Hockey Table
+  gameObject: {fileID: 1348049188}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1415785177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,6 +1477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Couch
+  gameObject: {fileID: 1481732790}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -1773,6 +1847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Scratching Post
+  gameObject: {fileID: 1663688711}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -1941,6 +2016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Bed
+  gameObject: {fileID: 1690471701}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -2100,6 +2176,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7826058823715770052, guid: 29da025a34eaa5d4eabe6fac544b245d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1850556184}
+    - targetCorrespondingSourceObject: {fileID: 7826058823715770052, guid: 29da025a34eaa5d4eabe6fac544b245d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1850556187}
   m_SourcePrefab: {fileID: 100100000, guid: 29da025a34eaa5d4eabe6fac544b245d, type: 3}
 --- !u!1 &1850556180 stripped
 GameObject:
@@ -2127,6 +2206,35 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0977178, y: 2.2689464, z: 0.5128499}
   m_Center: {x: -0.54885423, y: 1.1344732, z: -0.11346669}
+--- !u!114 &1850556187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850556180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cb596062bc5d408f0241650c36773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionText: Door
+  gameObject: {fileID: 1850556180}
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1850556180}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2001314116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 917278889609147279, guid: 7ffe462c97c4b684991a6f9472318357, type: 3}
@@ -2160,6 +2268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionText: Counter
+  gameObject: {fileID: 2001314116}
   OnInteract:
     m_PersistentCalls:
       m_Calls:
@@ -2242,7 +2351,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5475051098011276006, guid: a457d02d5bf10c9459386d5931ca3a94, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 840822131}
   m_SourcePrefab: {fileID: 100100000, guid: a457d02d5bf10c9459386d5931ca3a94, type: 3}
 --- !u!1001 &2115840473
 PrefabInstance:
