@@ -10,6 +10,7 @@ TagManager:
   - DoorOutofApartment2
   - DoorOutofApartment
   - alreadyInteracted
+  - House
   layers:
   - Default
   - TransparentFX
