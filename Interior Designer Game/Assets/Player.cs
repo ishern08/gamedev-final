@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
    public static Player instance;
-   public GameObject respawn;
+   private GameObject respawn;
    public GameObject player;
 
     private void Awake()

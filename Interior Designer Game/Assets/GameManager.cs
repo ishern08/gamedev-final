@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
    public GameObject player;
-   public GameObject spawn;
+
     public static GameManager instance {get; private set;}
     private void Awake()
     {
@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
 
-       spawn = GameObject.FindWithTag("Respawn");
+       
 
     }
 
@@ -31,11 +31,6 @@ public class GameManager : MonoBehaviour
         if(other.CompareTag("House"))
         {
             SceneManager.LoadScene(1);
-            if(other.CompareTag("Respawn"))
-            {
-                player.transform.position = spawn.transform.position;
-                Debug.Log(player.transform.position);
-            }
 
         }
         if(other.CompareTag("DoorOutofHouse"))
