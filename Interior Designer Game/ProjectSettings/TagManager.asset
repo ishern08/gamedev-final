@@ -11,6 +11,7 @@ TagManager:
   - DoorOutofApartment
   - alreadyInteracted
   - House
+  - notInteracted
   layers:
   - Default
   - TransparentFX
