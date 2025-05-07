@@ -28,12 +28,20 @@ public class Timer : MonoBehaviour
         timeLeft = startingTime - Mathf.RoundToInt(elapsedTime);
         countDown = "Time Left: " + timeLeft.ToString();
 
-        if(elapsedTime > startingTime)
+        if(elapsedTime > startingTime && GameObject.FindGameObjectWithTag("notInteracted") == null)
+        {
+            countDown = "Out of Time!";
+            uiManager.levelCompleted();
+            
+        }
+        else if(elapsedTime > startingTime)
         {
             countDown = "Out of Time!";
        
             uiManager.levelFailed();
+            Debug.Log(GameObject.FindGameObjectsWithTag("notInteracted"));
         }
+        
 
         SetTimerText(countDown);
     }

@@ -7,6 +7,7 @@ public class InputHandler : MonoBehaviour
     FirstPersonCamera firstPersonCamera;
     CharacterMovement characterMovement;
     PlayerInteraction playerInteraction;
+    
 
  
     // Start is called before the first frame update
@@ -34,10 +35,11 @@ public class InputHandler : MonoBehaviour
 
     void HandleMoveInput()
     {
-        float forwardInput = Input.GetAxis("Vertical");
-        float rightInput = Input.GetAxis("Horizontal");
+        
+            float forwardInput = Input.GetAxis("Vertical");
+            float rightInput = Input.GetAxis("Horizontal");
 
-        characterMovement.AddMoveInput(forwardInput,rightInput);
+            characterMovement.AddMoveInput(forwardInput,rightInput);
     }
 
     void HandleInteractionInput()

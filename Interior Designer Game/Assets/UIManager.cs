@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public GameObject levelFailedUI;
+    public GameObject levelPassedUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,14 @@ public class UIManager : MonoBehaviour
     {
         levelFailedUI.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
+        
+    }
+
+    public void levelCompleted()
+    {
+        levelPassedUI.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Debug.Log("yay");
     }
 
     public void restart()
