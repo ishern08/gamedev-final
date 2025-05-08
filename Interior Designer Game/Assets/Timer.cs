@@ -12,6 +12,7 @@ public class Timer : MonoBehaviour
     private float timeLeft;
     public float elapsedTime;
     public UIManager uiManager;
+    public GameObject furniture;
     
 
 
@@ -28,7 +29,7 @@ public class Timer : MonoBehaviour
         timeLeft = startingTime - Mathf.RoundToInt(elapsedTime);
         countDown = "Time Left: " + timeLeft.ToString();
 
-        if(elapsedTime > startingTime && GameObject.FindGameObjectWithTag("notInteracted") == null)
+        if(elapsedTime > startingTime && GameObject.FindGameObjectWithTag("notInteracted") == null && furniture.activeSelf == true)
         {
             countDown = "Out of Time!";
             uiManager.levelCompleted();
@@ -39,7 +40,9 @@ public class Timer : MonoBehaviour
             countDown = "Out of Time!";
        
             uiManager.levelFailed();
-            Debug.Log(GameObject.FindGameObjectsWithTag("notInteracted"));
+            furniture.SetActive(false);
+            
+            
         }
         
 

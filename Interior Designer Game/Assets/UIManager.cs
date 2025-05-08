@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
     {
         levelPassedUI.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
-        Debug.Log("yay");
+        
     }
 
     public void restart()

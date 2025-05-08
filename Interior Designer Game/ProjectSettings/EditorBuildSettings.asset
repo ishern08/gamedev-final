@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: cf9efd12712908e43904d09d83d594e7
+  - enabled: 1
+    path: Assets/Scenes/BootStrapScene.unity
+    guid: 65620bdec037f3e4fb152069fce66ad6
   m_configObjects: {}

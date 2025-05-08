@@ -22,8 +22,7 @@ public class Player : MonoBehaviour
             DontDestroyOnLoad(this);
         }
 
-        respawn = GameObject.FindWithTag("Respawn");
-        player.transform.position = respawn.transform.position;
+        
         
         
     }
