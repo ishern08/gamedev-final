@@ -1303,7 +1303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1642742315}
-  startingTime: 2
+  startingTime: 12
   elapsedTime: 0
   uiManager: {fileID: 1908198837}
   furniture: {fileID: 602881378}

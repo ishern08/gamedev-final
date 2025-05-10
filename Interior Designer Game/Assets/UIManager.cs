@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
 {
     public GameObject levelFailedUI;
     public GameObject levelPassedUI;
+
+
     // Start is called before the first frame update
     void Start()
     {

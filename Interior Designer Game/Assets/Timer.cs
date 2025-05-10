@@ -33,6 +33,7 @@ public class Timer : MonoBehaviour
         {
             countDown = "Out of Time!";
             uiManager.levelCompleted();
+    
             
         }
         else if(elapsedTime > startingTime)

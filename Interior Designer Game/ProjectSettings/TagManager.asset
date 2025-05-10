@@ -12,6 +12,7 @@ TagManager:
   - alreadyInteracted
   - House
   - notInteracted
+  - Apartment
   layers:
   - Default
   - TransparentFX
