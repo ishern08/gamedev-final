@@ -2707,8 +2707,8 @@ Transform:
   - {fileID: 689847739}
   - {fileID: 1240276995}
   - {fileID: 1319973931}
-  - {fileID: 614211686}
   - {fileID: 1669531430}
+  - {fileID: 614211686}
   - {fileID: 1858079904}
   - {fileID: 691083267}
   - {fileID: 1060462821}
@@ -2729,6 +2729,10 @@ PrefabInstance:
     - target: {fileID: 8225997399151032839, guid: a47bc71942f460a47ab5fdebb4abd678, type: 3}
       propertyPath: m_Name
       value: lamp_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225997399151032839, guid: a47bc71942f460a47ab5fdebb4abd678, type: 3}
+      propertyPath: m_TagString
+      value: notInteracted
       objectReference: {fileID: 0}
     - target: {fileID: 8746920258274549949, guid: a47bc71942f460a47ab5fdebb4abd678, type: 3}
       propertyPath: m_LocalScale.x
@@ -4557,7 +4561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314, y: 173}
+  m_AnchoredPosition: {x: -506, y: 212}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1774494974
