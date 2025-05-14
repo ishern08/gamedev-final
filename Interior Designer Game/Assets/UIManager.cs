@@ -7,6 +7,10 @@ public class UIManager : MonoBehaviour
 {
     public GameObject levelFailedUI;
     public GameObject levelPassedUI;
+    private bool lev1 = false;
+    private bool lev2 = false;
+    private bool lev3 = false;
+
 
 
     // Start is called before the first frame update
@@ -41,8 +45,15 @@ public class UIManager : MonoBehaviour
     }
 
     public void BacktoCity()
-    {
+    { 
         SceneManager.LoadScene(0);
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void Back2City()
+    {
+        SceneManager.LoadScene(7);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void MainMenu()

@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
     public GameObject level1UI;
     public GameObject level2UI;
     public GameObject level3UI;
-    
+    public bool doneLevel1 = false;
+    public bool doneLevel2 = false;
+    public bool doneLevel3 = false;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -34,16 +36,20 @@ public class GameManager : MonoBehaviour
     {
         level1UI.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+      
+      
     }
     public void Exit2()
     {
         level2UI.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+       
     }
     public void Exit3()
     {
         level3UI.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
 
@@ -61,6 +67,14 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(3);
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void BossFight()
+    {
+        
+            SceneManager.LoadScene(7);
+            Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
 
