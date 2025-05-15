@@ -1,6 +1,6 @@
 Trailer: https://drive.google.com/file/d/18DTc9ez2YgZ_WHrIaMtBQnNR7nRloMrO/view?usp=sharing 
 
-How to Play: https://www.loom.com/share/5d37d7903c0149aa93c942561ab0567a?sid=f95c4db1-e8c5-419e-9f51-934fccdbb280
+How to Play: https://www.loom.com/share/92296befc665459d858cb098094f4f72?sid=4cf59c75-764b-4133-abfc-78fdbf39ced6
 
 How I Did This: 
 
